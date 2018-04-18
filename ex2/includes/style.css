@@ -1,0 +1,195 @@
+* {
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+
+header, main, footer, nav {
+	display: block;
+}
+
+header {	
+	width: 1600px;
+	height: 99px;
+	background-color:#f6f9f9;
+}
+header a {
+	width:197px;
+}
+
+#logo {
+	display: inline-block;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	height: 37px;
+	width: 22px;
+	margin-left:274px;
+	margin-top:31px;
+	
+}
+
+header h1 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-left: 39px;
+	width:197px;
+	color:#264951;
+}
+
+#mainNav {
+	display:inline-block;
+	margin-left:230px;
+	font-size:30px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color:#264951;
+}
+
+#mainNav a {
+	color:#264951;
+}
+
+#mainNav a:hover {
+	color:#959595;
+}
+
+.cover {
+	background-image: url(../images/my_pic.jpg);
+	background-repeat: no-repeat;
+	display:block;
+	width: 1600px;;
+	height: 800px;
+}
+
+.cover h1{
+	font-family: Ariel;
+	font-size:120px;
+	margin-left:500px;
+	margin-top:242px;
+	display: inline-block;
+	color:#dc5069;
+	border-bottom-style: solid;
+	border-bottom-color: #15a4fa;
+}
+
+.cover h4 {
+	font-size:20px;
+	padding-left:530px;
+	margin-top:39px;
+	color:#dc5069;
+}
+
+.cover a.gitLink{
+	font-size:18px;
+	display: inline-block;
+	border: 2px solid #15a4fa;
+    padding: 22px;
+	border-radius: 4px;
+	color:#dc5069;
+	margin-left:710px;
+	margin-top:72px;
+}
+
+.cover a.arrow {
+	width: 25px;
+	height: 12px;
+	display: block;
+	margin-top:147px;
+	margin-left: 780px;
+}
+
+#info {
+	width: 1600px;
+	height: 349px;
+	background-color:#f6f9f9;
+}
+
+#info h2{
+	font-size: 40px;
+	padding-top:89px;
+	color:#9c9c9c;
+	text-align: center;
+}
+
+#info p {
+	font-size: 20px;
+	padding-top: 29px;
+	color:#9c9c9c;
+	text-align: center;
+}
+
+#skills {
+	height:635px;
+	width: 1600px;
+	background-color:#ffffff;
+}
+
+#skills h2 {
+	vertical-align: middle;
+	margin-top:70px;
+	font-size: 41px;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+#skills ul {
+	margin-left:326px;
+	list-style-type: none;
+
+}
+
+.know1 {
+	margin-right: 32px;
+	vertical-align: middle;
+}
+
+.know2 {
+	margin-top: 20px;
+	margin-right: 32px;
+	vertical-align: middle;
+}
+
+.know3 {
+	margin-top: 30px;
+	margin-right: 32px;
+	vertical-align: middle;
+}
+
+#links {
+	height:90px;
+	width: 1600px;
+	background-color: #f6f9f9;
+}
+
+.facebook {
+	margin-left:250px;
+	margin-top:25px;
+	height:40px;
+	width: 40px;
+	display: inline-block;
+}
+.gmail {
+	margin-top:25px;
+	margin-left:5px;
+	height:40px;
+	width: 40px;
+	display: inline-block;
+}
+
+.linkdin {
+	margin-top:25px;
+	margin-left:5px;
+	height:40px;
+	width: 40px;
+	display: inline-block;
+}
+#links h6 {
+	display: inline-block;
+	vertical-align: middle;
+	color:#999999;
+	margin-bottom:41px;
+	margin-left:16px;
+}
+
+
+
+
