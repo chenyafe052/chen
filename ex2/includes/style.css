@@ -52,7 +52,7 @@ header h1 {
 }
 
 .cover {
-	background-image: url(../images/my_pic.jpg);
+	background-image: url(../images/my_pic1.jpg);
 	background-repeat: no-repeat;
 	display:block;
 	width: 1600px;;
@@ -65,7 +65,7 @@ header h1 {
 	margin-left:500px;
 	margin-top:242px;
 	display: inline-block;
-	color:#dc5069;
+	color:#ee4181;
 	border-bottom-style: solid;
 	border-bottom-color: #15a4fa;
 }
@@ -74,7 +74,7 @@ header h1 {
 	font-size:20px;
 	padding-left:530px;
 	margin-top:39px;
-	color:#dc5069;
+	color:#ee4181;
 }
 
 .cover a.gitLink{
@@ -83,7 +83,7 @@ header h1 {
 	border: 2px solid #15a4fa;
     padding: 22px;
 	border-radius: 4px;
-	color:#dc5069;
+	color:#ee4181;
 	margin-left:710px;
 	margin-top:72px;
 }
