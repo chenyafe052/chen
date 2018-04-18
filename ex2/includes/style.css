@@ -22,23 +22,26 @@ header a {
 	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
 	height: 37px;
-	width: 22px;
-	margin-left:274px;
-	margin-top:31px;
+	width: 37px;
+	margin-left:252px;
+	margin-top:34px;
 	
 }
 
 header h1 {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	margin-left: 39px;
-	width:197px;
+	font-size: 30px;
+	margin-left: 53px;
+	width:104px;
 	color:#264951;
 }
 
 #mainNav {
 	display:inline-block;
-	margin-left:230px;
+	margin-left:234px;
+	margin-top:41px;
 	font-size:30px;
+	width:824px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	color:#264951;
 }
@@ -60,32 +63,32 @@ header h1 {
 }
 
 .cover h1{
-	font-family: Ariel;
+	font-family: Arial;
 	font-size:120px;
 	margin-left:500px;
-	margin-top:242px;
+	margin-top:218px;
 	display: inline-block;
-	color:#ee4181;
+	color:#fd93a6;
 	border-bottom-style: solid;
 	border-bottom-color: #15a4fa;
 }
 
 .cover h4 {
 	font-size:20px;
-	padding-left:530px;
+	padding-left:543px;
 	margin-top:39px;
-	color:#ee4181;
+	color:#fd93a6;
 }
 
 .cover a.gitLink{
 	font-size:18px;
 	display: inline-block;
 	border: 2px solid #15a4fa;
-    padding: 22px;
+    padding: 21px;
 	border-radius: 4px;
-	color:#ee4181;
+	color:#fd93a6;
 	margin-left:710px;
-	margin-top:72px;
+	margin-top:64px;
 }
 
 .cover a.arrow {
@@ -104,7 +107,7 @@ header h1 {
 
 #info h2{
 	font-size: 40px;
-	padding-top:89px;
+	padding-top:88px;
 	color:#9c9c9c;
 	text-align: center;
 }
