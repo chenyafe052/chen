@@ -1,4 +1,6 @@
-* { margin:0; padding:0; text-decoration:none;
+* {    
+    margin:0; padding:0;
+    text-decoration:none;
 }
 
 header, nav, aside, article, section, footer, main {
@@ -16,32 +18,55 @@ header, nav, aside, article, section, footer, main {
     clear: both;
 }
 
-header {
+#logo {
+    width: 68px;
+    height: 67px;
+    display: block;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+ul li {
+    list-style-type: none;
+     text-align: center;
+     
+}
+
+a, h2{
+    font-family: arial;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/********LAYOUT1********/
+
+#layout1 header {
     width: 1000px;
     height: 183px;
-}
-
-nav {
-    width: 729px;
-    height: 57px;
-    background-color: #b94a48;
-    float: right;
-    margin-top: 48px;
-    text-align: center;	
-
-}
-
-ul {
-    list-style-type: none;
     position: relative;
 }
 
-ul a {
-    color: #ffffff;
-    font-size: 21px;
+#layout1 header nav {
+    width: 727px;
+    height: 57px;
+    background-color: #b94a48;
+    top:127px;
+    left: 273px;
+    position: absolute;
 }
 
-.selected {
+#layout1 header a {
+    left:104px;
+    top:11px;
+}
+
+#layout1 nav ul {
+    width: 727px;
+    height: 57px;
+}
+
+#layout1 li.selected {
     background-color:#333333;
     width: 243px;
     height: 57px;
@@ -49,66 +74,142 @@ ul a {
     float: left;
 }
 
-.layout2 {
-    width: 243px;
-    height: 57px;
-    position: absolute;
-    float: left;
-
-}
-
-.layout3 {
-    width: 243px;
-    height: 57px;
-    position: absolute;
-    float: left;
-}
-
-#logo {
-    width: 67px;
-    height: 78px;
-    background-image: url(../images/logo.png);
-    background-repeat: no-repeat;
-    display: block;
-    margin-left: 104px;
-}
-
-aside {
-    width: 122px;
+#layout1 aside {
+    width: 121px;
     height: 696px;
     background-color: #f2dede;
     float: left;
 }
-main{
+
+#layout1 main{
     position: relative;
+    width: 879px;
+    height: 696px;
+    left: 122px;
 }
-section.box1 {
+
+.box1 {
     width: 849px;
     height: 268px;
-    float: right;
-    background-color: #ee5f5b;    
+    left: 29px;
+    background-color: #ee5f5b;
+    position: relative;    
 }
 
-section.smallBox {
+.smallBox {
     width: 127px;
     height: 94px;
-    background-color: #5f2624;
-    margin: 89px auto ;
+    background-color: #333333;
+    margin: 0px auto ;
+    opacity: 0.6;    
+    position: relative;   
+    bottom:179px; 
 }
 
-
-section.box2 {
+.box2 {
     width: 692px;
     height: 175px;
     background-color: #666666;
-    position: absolute;
-    right: 90px;
+    position: absolute; 
     bottom: 29px;
+    left: 97px;
 }
 
-footer {
+#layout1 footer {
     width: 1000px;
     height: 121px;
     background-color: #d6d6d6;
     position: absolute;
+}
+
+
+/********LAYOUT2********/
+
+#layout2 header {
+    position: relative;
+    width: 1000px;
+    height: 193px;
+    background-color: #ffffff;
+}
+
+#layout2 header a {
+    top:38px;
+    left: 464px;
+}
+
+#layout2 main {
+    width: 757px;
+    height: 1000px;
+    background-color: #ee5f5b;
+    position: relative;
+    float: right;
+}
+
+#layout2 nav {
+    width: 243px;
+    height: 1000px;
+    background-color: #333333;
+    float: left;
+}
+
+#layout2 nav li {
+    width: 243px;
+    height: 58px;
+}
+
+#layout2.selected {
+    width: 243px;
+    height: 58px;
+    position: absolute;
+    float: left;
+    background-color: #b94a48;
+}
+
+#layout2 main section {
+    width: 242px;
+    float: left;
+    left: 30px;
+
+}
+
+#layout2 .b1, .b2, .b3, .b4, .b5{
+    opacity: 0.6;
+    background-color: #000000;
+    position: relative;
+    width: 212px;
+    margin-bottom: 19px;
+
+}
+
+#layout2 .b1 {
+    height: 366px;
+    float: right;
+}
+
+#layout2 .b2 {
+    height: 500px;
+    float: right;
+}
+
+#layout2 .b3 {
+    height: 560px;
+    float: right;
+ }
+
+ #layout2 .b4 {
+    height: 306px;
+    float: right;
+}
+
+#layout2 .b5 {
+    height: 223px;
+    float: right;
+}
+
+#layout2 footer {
+    width: 1000px;
+    height: 50px;
+    background-color: #d6d6d6;
+    position: fixed;
+    bottom: 0px;
 }
