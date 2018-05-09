@@ -28,15 +28,16 @@ header, nav, aside, article, section, footer, main {
 }
 
 ul li {
-    list-style-type: none;
-     text-align: center;
-     
+    list-style-type: none;  
 }
 
 a, h2{
     font-family: arial;
     color: #ffffff;
     font-size: 20px;
+    line-height: 53px;
+    font-weight: normal;
+
 }
 
 /********LAYOUT1********/
@@ -52,9 +53,10 @@ a, h2{
     height: 57px;
     background-color: #b94a48;
     top:127px;
-    left: 273px;
-    position: absolute;
+    float: right;
+    position: relative;
 }
+
 
 #layout1 header a {
     left:104px;
@@ -70,8 +72,17 @@ a, h2{
     background-color:#333333;
     width: 243px;
     height: 57px;
-    position: absolute;
+    position: relative;
     float: left;
+}
+
+#layout1 ul li {
+    width: 242px;
+    height: 57px;
+    position: relative;
+    float: left;
+    text-align: center;
+    background-color: #b94a48;
 }
 
 #layout1 aside {
@@ -99,7 +110,7 @@ a, h2{
 .smallBox {
     width: 127px;
     height: 94px;
-    background-color: #333333;
+    background-color: #000000;
     margin: 0px auto ;
     opacity: 0.6;    
     position: relative;   
@@ -109,7 +120,8 @@ a, h2{
 .box2 {
     width: 692px;
     height: 175px;
-    background-color: #666666;
+    background-color: #000000;
+    opacity: 0.6;       
     position: absolute; 
     bottom: 29px;
     left: 97px;
@@ -157,10 +169,9 @@ a, h2{
     height: 58px;
 }
 
-#layout2.selected {
+#layout2 nav ul li.selected {
     width: 243px;
     height: 58px;
-    position: absolute;
     float: left;
     background-color: #b94a48;
 }
