@@ -37,7 +37,6 @@ a, h2{
     font-size: 20px;
     line-height: 53px;
     font-weight: normal;
-
 }
 
 /********LAYOUT1********/
@@ -151,7 +150,7 @@ a, h2{
 
 #layout2 main {
     width: 757px;
-    height: 1000px;
+    height: 885px;
     background-color: #ee5f5b;
     position: relative;
     float: right;
@@ -159,7 +158,7 @@ a, h2{
 
 #layout2 nav {
     width: 243px;
-    height: 1000px;
+    height: 885px;
     background-color: #333333;
     float: left;
 }
@@ -167,6 +166,7 @@ a, h2{
 #layout2 nav li {
     width: 243px;
     height: 58px;
+    padding-left:6px;
 }
 
 #layout2 nav ul li.selected {
@@ -174,13 +174,13 @@ a, h2{
     height: 58px;
     float: left;
     background-color: #b94a48;
+   
 }
 
 #layout2 main section {
     width: 242px;
     float: left;
     left: 30px;
-
 }
 
 #layout2 .b1, .b2, .b3, .b4, .b5{
