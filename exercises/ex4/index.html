@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Chen Yafe EX4</title>
+        <link rel="stylesheet" href="includes/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <div id="container">
+            <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get">
+                <label><input type="text" name="fullName">Full Name:</label> <br>
+                <label><input type="password" name="pass" maxlength="8">Password:</label><br>
+                <label><input type="email" name="mail">E-mail:</label><br>
+                <label><input type="url" name="website"></label>Website<br>
+                <label><input type="tel" name="phone" ></label>Phone<br>
+                <label><input type="number" name="coffee"></label>number?<br>
+                <label><input type="range" name="temper"></label>Temperature<br>
+                <label><textarea name="address" rows="1" cols="20"></textarea>Address</label><br>
+                <label><h3>Hobbies: </h3>
+                    Reading books: <input type="checkbox" name="interests[]" value="Reading Books"><br>
+                    Play with my children:<input type="checkbox" name="interests[]" value="Children"><br>
+                    Sleeping:<input type="checkbox" name="interests[]" value="Sleeping"><br>
+                    blabla:<input type="checkbox" name="interests[]" value="blabla">
+                </label><br>
+                <label><h4>Have you been subscribed in the past? </h4>
+                    <label>Yes <input type ="radio" name ="gender" value ="yes"></label>
+                    <label>No<input type ="radio" name ="gender" value ="no"></label>
+                </label><br>
+                <label>Number of Children:
+                    <select name ="age">
+                    <option value ="1" name="age">1</option>
+                    <option value ="2" name="age" selected>2</option>
+                    <option value ="3" name="age">3</option>
+                    <option value ="4" name="age">4</option>
+                    </select>
+                </label><br>
+                <label><input type="submit" value="submit">Send</label><br>
+
+            </form>
+        </div>
+    </body>
+</html>

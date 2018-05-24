@@ -10,8 +10,6 @@ header, nav, aside, article, section, footer, main {
 #wrapper {
     margin: 0px auto;
     width: 1000px;
-    height: 1000px;
-    background-color: #ffffff;
 }
 
 .clear {
@@ -224,3 +222,65 @@ a, h2{
     position: fixed;
     bottom: 0px;
 }
+
+
+/********LAYOUT3********/
+
+#layout3 header {
+    width: 500px;
+    height: 500px;
+    float: left;
+    background-color: #ffffff;
+}
+
+#layout3 #logo {
+    margin: 22px 20px;
+}
+
+#layout3 #plus {
+    width: 86px;
+    height: 86px;
+    top: 207px;
+    left: 207px;
+    position: relative;
+}
+
+#layout3 nav {
+    width: 500px;
+    height: 62px;
+    top: 438px;
+    position: absolute;
+    background-color: #333333;
+}
+
+#layout3  li.selected {
+    width: 167;
+    height: 62px;
+    background-color: #333333;
+    position: relative;
+    float: right;
+}
+
+#layout3 ul li {
+    height: 62px;
+    width: 166.5px;
+    background-color: #b94a48;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+#layout3 div:hover {
+    opacity: 1 !important;
+    background-color: #ffffff !important;
+}
+
+#layout3 main {
+    max-width: 1000px;
+    width: auto;
+    min-height: 1000px;
+    height: 100%;
+    background-color: #9d261d;
+}
+
+
