@@ -1,0 +1,16 @@
+* {    
+    margin: 0px; padding: 0px;
+    text-decoration:none;
+}
+
+header, nav, aside, article, section, footer, main {
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+#wrapper {
+
+}

@@ -1,0 +1,23 @@
+* {    
+  margin:0px; padding:0px;
+  text-decoration:none;
+}
+
+header, nav, aside, article, section, footer, main {
+  display: block;
+}
+
+#container {
+  margin: 0px auto;
+  width: auto;
+  max-width: 1000px;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  background: #8989fa; 
+}
+

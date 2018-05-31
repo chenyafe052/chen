@@ -1,0 +1,115 @@
+* {    
+    margin: 0px; padding: 0px;
+    text-decoration:none;
+}
+
+header, nav, aside, article, section, footer, main {
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+#wrapper {
+    margin: 0px auto;
+    width: 1600px;
+}
+
+li {
+    list-style-type: none; 
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+}
+
+#logo {
+    width: 200px;
+    height: 29px;
+    display: block;
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 36px;
+    left: 40px;
+}
+
+img {
+    height: 78px;
+    width: 78px;
+    float: right;
+    bottom : 15px;
+    right: 66px;
+    position: relative;
+}
+
+#userName {
+    left: 1398px;
+    top: 30px;
+    position: relative;
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #555555;
+}
+
+
+main .messeges {
+    margin-top: 72px;
+}
+
+/* DESKTOP */
+@media (min-width: 851px) {
+    header {
+        width: auto;
+        height: 104px;
+    }
+
+    li {
+        height: 145px;
+        width: 295px;
+        border: 3px solid #cccccc;
+        border-radius: 8px;
+        float: right;
+    }
+
+    .messeges {
+        min-height: 88px;
+        height: auto;
+        width: 480px;
+    }
+
+    h2 {
+        margin-top: 45px;
+        color: #555555;
+
+    }
+     h2.long {
+         margin-top:30px;
+     }
+
+     article {
+        border: 3px solid #cccccc;
+        border-radius: 8px;
+        min-height: 90px;
+        height: auto;
+        width: 477px;
+        font-size: 38px;
+        text-align: center;
+        position: relative;
+        left:558px;
+        margin: 50px;
+        background: #ebebeb;
+        color: #555555;
+    }
+
+}    
+
+
+/* MOBILE */
+@media (max-width: 850px) and (min-width: 591px) {
+
+}
+

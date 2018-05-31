@@ -9,8 +9,7 @@ header, nav, aside, article, section, footer, main {
 
 #wrapper {
     margin: 0px auto;
-    width: auto;
-    max-width: 1000px;
+    width: 460px;
 }
 
 .clear {
